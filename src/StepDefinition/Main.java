@@ -33,7 +33,8 @@ public class Main {
 			System.out.println("user enters username and password");
 			driver.findElement(By.id("log")).sendKeys(UserName); 	 
 		    driver.findElement(By.id("pwd")).sendKeys(Password);
-		    driver.findElement(By.id("login")).click();		    
+		    driver.findElement(By.id("login")).click();
+Thread.sleep(100)	    ;
 			}
 				
 		@Then("^Message displayed Login Successfully$")
