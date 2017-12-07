@@ -35,6 +35,7 @@ public class Main {
 		    driver.findElement(By.id("pwd")).sendKeys(Password);
 		    driver.findElement(By.id("login")).click();
 Thread.sleep(100)	    ;
+Thread.sleep(100)	    ;
 			}
 				
 		@Then("^Message displayed Login Successfully$")
