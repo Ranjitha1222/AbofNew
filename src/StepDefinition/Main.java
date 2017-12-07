@@ -37,6 +37,7 @@ public class Main {
 Thread.sleep(100)	    ;
 Thread.sleep(100)	    ;
 Thread.sleep(100)	    ;
+Thread.sleep(100)	    ;
 			}
 				
 		@Then("^Message displayed Login Successfully$")
